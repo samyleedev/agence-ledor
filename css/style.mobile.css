@@ -1,0 +1,82 @@
+/* HEADER */
+
+header {
+  flex-flow: column;
+  align-items: center;
+  justify-self: stretch;
+}
+
+header nav,
+header nav ul {
+  flex-direction: column;
+  width: 100%;
+}
+
+header nav a {
+  width: 100%;
+}
+
+/* Value Product */
+
+.vp-container {
+  height: auto;
+}
+.vp {
+  padding: 4rem 0;
+}
+
+/* OFFERS */
+
+.offers {
+  margin: 5rem 2rem;
+}
+
+.offers h3 {
+  margin-left: 0;
+  text-align: center;
+}
+
+.offers-container {
+  flex-flow: column;
+  align-items: center;
+}
+
+.offers-element-text {
+  padding: 2rem 1rem;
+}
+
+.offers-element-text p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/* TEAM */
+
+.team-img {
+  min-height: 50vh;
+}
+.team {
+  flex-flow: column-reverse;
+}
+
+.team-text {
+  padding: 3rem 2rem;
+}
+
+/* TESTIMONIES */
+
+.testimonies {
+  text-align: center;
+}
+
+.testimonies-elem {
+  flex-direction: column;
+}
+
+form {
+  width: 75%;
+}
+
+.contact h2 {
+  margin-bottom: 6rem;
+}
